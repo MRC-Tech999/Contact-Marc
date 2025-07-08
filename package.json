@@ -1,5 +1,5 @@
 {
-  "name": "contact-form",
+  "name": "Contact-Marc",
   "version": "1.0.0",
   "type": "module",  // Ajoute cette ligne pour utiliser ESM
   "dependencies": {
