@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Future Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        /* Ton style ici */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-card">
+            <h1>CONTACTEZ-NOUS</h1>
+            <form action="/api/send-email" method="POST">
+                <div class="form-group">
+                    <label for="name">VOTRE NOM</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">ADRESSE E-MAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">NUMÉRO DE TÉLÉPHONE (pour WhatsApp)</label>
+                    <input type="text" id="phone" name="phone" placeholder="Votre numéro WhatsApp" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">SUJET</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">ENVOYER</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
