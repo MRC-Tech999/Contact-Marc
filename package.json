@@ -1,7 +1,7 @@
 {
   "name": "Contact-Marc",
   "version": "1.0.0",
-  "type": "module",  // Si tu utilises les modules ECMAScript
+  "type": "module",  
   "dependencies": {
     "express": "^4.17.1",
     "nodemailer": "^6.7.2",
