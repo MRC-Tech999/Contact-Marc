@@ -16,7 +16,7 @@ module.exports = async function handler(req, res) {
 
     const mailOptions = {
       from: email,
-      to: 'ton-email@example.com',  // Ton adresse e-mail pour recevoir les messages
+      to: 'emprerorsukuna@gmail.com',  // Ton adresse e-mail pour recevoir les messages
       subject: `Nouveau message de ${name}: ${subject}`,
       text: `Nom: ${name}\nEmail: ${email}\nNuméro de téléphone: ${phone}\nSujet: ${subject}\nMessage: ${message}`
     };
